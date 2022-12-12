@@ -152,6 +152,51 @@ body {
     font-weight: bolder;
     font-size: 30px;
 }
+
+.endsection {
+    display: flex;
+    width: 100%;
+    min-height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+#signup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color: #4169e1;
+    border-radius: 10px;
+    gap: 15em;
+}
+
+#signup_text {
+    text-align: left;
+    color: white;
+}
+
+#endingtext1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.signup_button {
+    border: 2px solid white;
+    color: white;
+    background-color: #4169e1;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 @media screen and (max-width: 1200px) {
 
     .intro_text {
@@ -183,5 +228,10 @@ body {
     #elon {
         font-size: 20px;
         margin-left: 0px;
+    }
+
+    #signup {
+        gap: 2em;
+        height: auto;
     }
   }
