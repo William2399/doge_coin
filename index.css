@@ -103,6 +103,7 @@ body {
     font-size: 30px;
     margin-top: 40px;
     font-weight: bold;
+    font-family: 'Roboto';
 }
 
 .midsection {
@@ -122,6 +123,35 @@ body {
     border: solid #FCC201 2px;
 }
 
+.midsection2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    min-height: 450px;
+    background-color: #e1e1e1;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+}
+
+#quote {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-style: italic;
+    font-size: 42px;
+    max-width: 1000px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: auto;
+}
+
+#elon {
+    margin-left: 500px;
+    margin-top: -20px;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    font-size: 30px;
+}
 @media screen and (max-width: 1200px) {
 
     .intro_text {
@@ -143,4 +173,15 @@ body {
         align-items: center;
     }
     
+    #quote {
+        font-size: 35px;
+        max-width: 1000px;
+        
+        height: auto;
+    }
+
+    #elon {
+        font-size: 20px;
+        margin-left: 0px;
+    }
   }
