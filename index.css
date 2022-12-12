@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    font-family: 'Arial';
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px gray;
+}
+
+#doge_img {
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    margin-right: auto;
+}
+
+.links {
+    display: flex;
+    margin-left: auto;
+    padding: 10px;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.links a {
+    padding: 20px;
+    font-size: 22px;
+    text-decoration:none;
+}
+#home {
+    color: black;
+    text-decoration: solid underline #FCC201 3px;
+}
+
+#about, #history {
+    color: #9fa19f;
+}
+
+#home:hover, #about:hover, #history:hover {
+    color: #323633;
+    text-decoration: solid underline gray 3px;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.intro_text {
+    margin-top: 20px;
+    max-width: 800px;
+    height: auto;
+    width: 80%;
+}
+
+#doge_img2 {
+    width: 100%;
+    max-width: 600px;
+    min-width: 300px;
+    height: auto;
+    padding: 0;
+}
+
+#paragraph1 {
+    font-family: 'Trebuchet MS';
+    font-size: 40px;
+}
+
+#paragraph2 {
+    font-size: 30px;
+}
+
+#button {
+    background-color: #4169e1;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 1200px) {
+    #paragraph1 {
+        font-size: 30px;
+    }
+    
+    #paragraph2 {
+        font-size: 20px;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+  }
